@@ -127,22 +127,32 @@ Before submitting, verify:
 
 ## Your Information
 
-**Name:** [Your Name]
-**Student ID:** [Your Student ID]
-**Design Theme:** [Describe your portfolio theme/style]
+**Name:** Taonga Mtonga
+**Student ID:** 2022049870
+**Design Theme:** A simplistic professional design for busineses of the highest class with a responsive dark mode.
 
 ### CSS Techniques Used
-- [ ] CSS Custom Properties
-- [ ] Flexbox
-- [ ] CSS Grid
-- [ ] Media Queries
-- [ ] Other: _______________
+- [+] CSS Custom Properties
+- [+] Flexbox
+- [+] CSS Grid
+- [+] Media Queries
+- [+] Other: _______________
 
 ### Challenges & Solutions
-[Describe any challenges you faced and how you solved them]
+One of the main challenges I faced while developing this portfolio was ensuring that the website remained responsive across different screen sizes. Initially, some sections such as the project cards and navigation menu did not display correctly on smaller screens. To solve this problem, I implemented a mobile-first responsive design approach and used media queries to adjust layouts at tablet and desktop breakpoints.
+
+Another challenge was creating a navigation menu that worked well on mobile devices without using JavaScript. I solved this by implementing a CSS-only hamburger menu using a checkbox toggle, which allows the navigation links to expand and collapse when the menu icon is clicked.
+
+Additionally, implementing a dark and light theme toggle using only CSS required restructuring the layout so that the checkbox could control the styles of the entire page. By using the :checked selector and sibling selectors, I was able to switch themes successfully.
 
 ### Credits
-[List any images, fonts, or resources used with attribution]
+Google Fonts – Poppins font
+https://fonts.google.com/
+
+Placeholder Images – Used for project and profile placeholders
+- Google Images
+
+Icons and Emoji – Used for the theme toggle and menu icon
 
 ---
 
